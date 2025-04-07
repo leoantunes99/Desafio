@@ -1,0 +1,72 @@
+* {
+    text-align: center;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    height: 100vh;
+    background-image: url("./planodefundo.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+section {
+    border: 1px solid #c9c9c9;
+    padding: 20px;
+    border-radius: 60px;
+    text-align: center;
+    width: 600px;
+    height: 500px;
+    display: inline-block;
+    box-shadow: 10px 10px 20px 5px rgba(0, 0, 0, 0.2);
+    margin: 11vh;
+}
+h1 {
+    color: transparent;
+    background: linear-gradient(45deg, #2102B8, #110168);
+    background-clip: text;
+    font-size: 100px;
+    margin-bottom: 40px;
+}
+input {
+    margin: 40px 0px 15px 0px;
+    height: 30px;
+    width: 200px;
+    border-radius: 30px;
+    outline: none;
+    border: 2px solid #c9c9c9;
+    transition: border-color 0.3s ease;
+}
+input:focus {
+    border-color: #9DE600;
+}
+button {
+    background-color: #9DE600;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 30px;
+    padding: 6px 43px;
+    transition: background-color 0.2s ease;
+    display: flex;
+    flex-direction: column;
+    margin: 0px auto;
+}
+button:hover {
+    background-color: #70a300;
+}
+button:active {
+    background-color: #4a6d00;
+    transform: scale(0.98);
+}
+#invisible-paragraph {
+    font-weight: bold;
+    font-size: 50px;
+    margin-top: 30px;
+    color: transparent;
+    background: linear-gradient(45deg, #2102B8, #110168);
+    background-clip: text;
+}
